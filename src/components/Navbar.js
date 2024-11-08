@@ -22,9 +22,6 @@ function Navbar()  {
         <li>
           <Link to="/Aeroponics"><h3> Aeroponics </h3></Link>
         </li>
-        <li>
-          <Link to="/contact"><h3> Contacts </h3></Link>
-        </li>
       </ul>
     </nav>
   );
