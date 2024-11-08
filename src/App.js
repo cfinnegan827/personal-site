@@ -9,19 +9,19 @@ import Home from './pages/Home';
 
 
 function App() {
-  return (
-    <Router>
-      <div className="App">
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/Education" element={<Education />} />
-          <Route path="/Projects" element={<Projects />} />
-          <Route path="/Aeroponics" element={<Aeroponics />} />
-        </Routes>
-      </div>
-    </Router>
-  );
+    return (
+        <Router>
+            <div className="App">
+                <Navbar />
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/Education" element={<Education />} />
+                    <Route path="/Projects" element={<Projects />} />
+                    <Route path="/Aeroponics" element={<Aeroponics />} />
+                </Routes>
+            </div>
+        </Router>
+    );
 }
 
 export default App;
