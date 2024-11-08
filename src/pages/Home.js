@@ -15,20 +15,26 @@ function Home() {
                 </h1>
             </div>
             <div className="right-top">
-                <h1>Contact Information:</h1>
+                <h1>Contact Me:</h1>
                 <div className='contact-links'>
-                    <a href='www.linkedin.com/in/connor-finnegan-50381b26a'>
+                    <h2>From: Medford, Ma</h2>
+                    <h2>Email: Cfinegan827@gmail.com</h2>
+
+                    <a href='https://www.linkedin.com/in/connor-finnegan-50381b26a' target="_blank">
                         <img src='/images/linkedin.png' alt='linkedin-png' className='contact-logo'></img>
-                        <span className="contact-name">LinkedIn</span>
                     </a>
 
-                    <a href='www.linkedin.com/in/connor-finnegan-50381b26a'>
+                    <a href='https://github.com/cfinnegan827' target='_blank'>
                         <img src='/images/github.png' alt='linkedin-png' className='contact-logo'></img>
-                        <span className="contact-name">Github</span>
                     </a>
                 </div>
             </div>
-            <div className="right-bottom"></div>
+            <div className="right-bottom">
+                <h1>Files:</h1>
+                <a href='/files/Resume.pdf' download={'Resume.pdf'} class="download-link"><h3>My Resume</h3></a>
+                <a href='/files/10_year_boston_weather.csv' download={'10_year_boston_weather.csv'} class="download-link"><h3>A custom data made using meteo stat 
+                    used in my machine learning model</h3></a>
+            </div>
         </div>
     );
 }

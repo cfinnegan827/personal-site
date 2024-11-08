@@ -18,10 +18,11 @@
         background-color: #D3D3D3;
         border: 2px solid #2C3E50;
         color: #2C3E50;
-        contact-links{
-          contact-logo{
-            width: 10px;
+        .contact-links{
+          .contact-logo{
+            width: 150px;
             height: auto;
+            padding: 10px;
           }
         }
     }
@@ -30,6 +31,10 @@
         background-color: #D3D3D3;
         border: 2px solid #2C3E50;
         color: #2C3E50;
+        .download-link{
+          text-decoration: underline;
+          color: inherit;
+        }
     }
   }
   
