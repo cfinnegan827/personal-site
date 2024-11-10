@@ -1,0 +1,19 @@
+.container {
+    background-color: #E0E0E0;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+
+    .left, .right {
+        background-color: #D3D3D3;
+        flex: 1;                
+        padding: 15px;
+        border: 2px solid #2C3E50;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 25px;
+        // Style for loading message
+        h1 {
+            color: #2C3E50;
+        }
+    }
+}
