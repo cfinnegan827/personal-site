@@ -1,0 +1,29 @@
+/* Scroll container */
+.scroll-container {
+  height: 100vh; /* Full viewport height */
+  overflow-y: scroll; /* Enable vertical scrolling */
+  scroll-snap-type: y mandatory; /* Enable vertical scroll snapping */
+  scroll-behavior: smooth; /* Smooth scroll */
+}
+
+/* Scroll items */
+.section {
+  height: 100vh; /* Each section takes up the full viewport height */
+  scroll-snap-align: start; /* Align the start of each section */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.section:nth-child(1) {
+  background-color: lightcoral;
+}
+
+.section:nth-child(2) {
+  background-color: lightblue;
+}
+
+.section:nth-child(3) {
+  background-color: lightgreen;
+}

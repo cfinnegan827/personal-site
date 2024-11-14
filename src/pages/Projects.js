@@ -5,10 +5,16 @@ import './Projects.scss';
 function Projects() {
     return (
         <div className="container">
-            <div className="left">
+            <div className="grid">
                 <h1>Weather prediction machine learning model using tensorflow</h1>
             </div>
-            <div className="right">
+            <div className="grid">
+                <h1>RP2040 development board</h1>
+            </div>
+            <div className="grid">
+                <h1>Weather prediction machine learning model using tensorflow</h1>
+            </div>
+            <div className="grid">
                 <h1>RP2040 development board</h1>
             </div>
         </div>

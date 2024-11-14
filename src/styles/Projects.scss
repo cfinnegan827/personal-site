@@ -1,10 +1,12 @@
 .container {
     background-color: #E0E0E0;
-    display: flex;
+    display: grid;
     gap: 20px;
     padding: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);   
 
-    .left, .right {
+    .grid {
         background-color: #D3D3D3;
         flex: 1;                
         padding: 15px;
